@@ -14,3 +14,4 @@ Slides are available [here](https://github.com/daattali/shiny-mini-workshop/raw/
 
 ![step 3](https://i.imgur.com/PMSHpKm.png)
 
+That's all you need to do! Don't worry about looking at any of the material, we'll cover it all in the workshop. All you need to do is steps 1-2-3.
