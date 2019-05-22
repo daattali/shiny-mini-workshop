@@ -38,6 +38,9 @@ players <- players %>% mutate(
   )
 )
 
+# Replace special vowels (accented and such) with regular, to avoid encoding issues
+players$Name <- iconv(players$Name, to = 'ASCII//TRANSLIT')
+
 # Rename columns, keep only a few columns and save
 players <- players %>% select(id = ID, name = Name, age = Age,
                               rating = Overall, value = Value, wage = Wage,
